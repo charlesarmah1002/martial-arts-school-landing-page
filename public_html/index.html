@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="../resources/css/style.css">
 
     <!-- venobox -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.4/venobox.min.css" integrity="sha512-HFaR9dTfvVVIkca85XvaYOlbZqtyRp5f7cyfb3ycnQU60RM1qjmJKq7qZPLDI+nudOkFDuY5giiwQqfbP7M36g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.4/venobox.min.css"
+        integrity="sha512-HFaR9dTfvVVIkca85XvaYOlbZqtyRp5f7cyfb3ycnQU60RM1qjmJKq7qZPLDI+nudOkFDuY5giiwQqfbP7M36g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="../resources/font-awesome/css/all.css">
 
     <!-- icons -->
     <link rel="stylesheet"
@@ -22,13 +27,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="primary-navigation">
             <a href="" class="logo-container">
-                <img src="../resources/images/logo.png" alt="logo">
+                <img src="../resources/images/emblem.png" alt="logo">
             </a>
             <div class="menu-toggle">
                 <span class="bar"></span>
@@ -61,13 +72,16 @@
     </header>
     <main>
         <section id="hero">
-            <div class="flex-grid">
+            <div class="flex-grid hero">
                 <div class="col">
                     <h1>Begin Your Journey to Discover Your Best Self</h1>
                     <p>Discover your best self at <strong>Millennium Taekwondo & Karate Academy</strong>, where
                         tradition and modern
                         mastery combine to enhance your strength and discipline.</p>
-                    <a href="" class="lm-button">Learn More</a>
+                    <div class="flex-container">
+                        <a href="" class="lm-button">Learn More</a>
+                        <a href="" class="reg-button">Register</a>
+                    </div>
                 </div>
                 <div class="col">
                     <div class="image-container">
@@ -117,24 +131,217 @@
                 </div>
             </div>
         </section>
-        <section id="competitions">
-            <div class="container">
-                
+        <section id="videos">
+            <div class="flex-grid card">
+                <a href="../resources/videos/video02.mp4" data-vbtype="video" class="vcard" data-autoplay="true">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/school.jpg" alt="">
+                        <i class="fa-solid fa-play-circle"></i>
+                    </div>
+                    <div class="label">
+                        <h5>Welcome</h5>
+                        <p>Get a tour of our Academy</p>
+                    </div>
+                </a>
+                <a href="../resources/images/emblem.png" class="vcard" data-autoplay="true">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/emblem.png" alt="">
+                        <i class="fa-solid fa-play-circle"></i>
+                    </div>
+                    <div class="label">
+                        <h5>Message from the Director</h5>
+                        <p>This is your safe-place</p>
+                    </div>
+                </a>
+                <a href="../resources/images/gallery/2.jpg" class="vcard" data-autoplay="true">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/gallery/2.jpg" alt="">
+                        <i class="fa-solid fa-play-circle"></i>
+                    </div>
+                    <div class="label">
+                        <h5>Japan Week</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </a>
+                <a href="../resources/images/gallery/private-class.jpg" class="vcard" data-autoplay="true">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/gallery/private-class.jpg" alt="">
+                        <i class="fa-solid fa-play-circle"></i>
+                    </div>
+                    <div class="label">
+                        <h5>Recent Events</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </a>
             </div>
         </section>
         <section id="classes">
-            <h3>Our Classes</h3>
-            <div class="flex-grid">
-                <div class="col">
+            <h3 class="center title">Our Classes</h3>
+            <div class="flex-grid classes">
+                <div class="card">
                     <div class="image-container">
-                        <img src="" alt="">
+                        <img loading="lazy" src="../resources/images/gallery/kids-karate-class.jpg"
+                            alt="Children learning basic shotokan forms" title="Children learning basic shotokan forms">
                     </div>
                     <div class="label">
-                        <p class="stars"></p>
+                        <h5>Kid's Karate Class</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quam dolorum eaque aliquam
+                            cumque neque deleniti? Reprehenderit magni eos ipsa!</p>
+                        <a href="" class="lm-button">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/gallery/womens-class.jpg"
+                            alt="Children learning basic shotokan forms" title="Children learning basic shotokan forms">
+                    </div>
+                    <div class="label">
+                        <h5>Self-Defence Class</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quam dolorum eaque aliquam
+                            cumque neque deleniti? Reprehenderit magni eos ipsa!</p>
+                        <a href="" class="lm-button">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/gallery/shotokan-class.jpg"
+                            alt="Children learning basic shotokan forms" title="Children learning basic shotokan forms">
+                    </div>
+                    <div class="label">
+                        <h5>Shotokan Class</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quam dolorum eaque aliquam
+                            cumque neque deleniti? Reprehenderit magni eos ipsa!</p>
+                        <a href="" class="lm-button">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/gallery/private-class.jpg"
+                            alt="Children learning basic shotokan forms" title="Children learning basic shotokan forms">
+                    </div>
+                    <div class="label">
+                        <h5>Private Class</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quam dolorum eaque aliquam
+                            cumque neque deleniti? Reprehenderit magni eos ipsa!</p>
+                        <a href="" class="lm-button">Learn More</a>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="about">
+            <div class="flex-grid about">
+                <div class="image-container">
+                    <img src="../resources/images/fighter-images.png" alt="">
+                </div>
+                <div class="paragraph">
+                    <h5>Making You Well Prepared & Well Protected </h5>
+                    <p>Melinium Taekwondo and Karate Academy, located in Ghana, has gained recognition for its welcoming
+                        and inclusive approach to martial arts instruction. Since its establishment in 2018, our academy
+                        has successfully trained over 200 international students, drawing participants from Europe and
+                        various African countries, all of whom have excelled in kung fu and karate. Set against the
+                        backdrop of picturesque mountains, our academy offers a comfortable and motivating environment
+                        for personal development.</p>
+                    <a href="" class="lm-button">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section id="instructors">
+            <h3>Our Instructors</h3>
+            <div class="flex-grid instructors">
+                <div class="staff-card">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/staff/Robert Rutherford Kankam.jpg"
+                            alt="Robert Rutherford Kankam">
+                    </div>
+                    <div class="label">
+                        <p>Robert Rutherford Kankam</p>
+                        <p><i class="fa-solid fa-phone"></i><a href="tel:+233242579624">+233 (0) 24 257 9624</a></p>
+                        <p>Director</p>
+                    </div>
+                </div>
+                <div class="staff-card">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/staff/Benjamin Effah Amponsah.jpeg"
+                            alt="Benjamin Effah Amponsah">
+                    </div>
+                    <div class="label">
+                        <p>Benjamin Effah Amponsah</p>
+                        <p><i class="fa-solid fa-phone"></i><a href="tel:+233242579624">+233 (0) 24 257 9624</a></p>
+                        <p>Executive Member Ghana Karate Federation</p>
+                    </div>
+                </div>
+                <div class="staff-card">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/staff/Herbert Nana Adarkwah Akuamoah.jpeg"
+                            alt="Herbert Nana Adarkwah Akuamoah">
+                    </div>
+                    <div class="label">
+                        <p>Herbert Nana Adarkwah Akuamoah</p>
+                        <p><i class="fa-solid fa-phone"></i><a href="tel:+233244852106">+233 (0) 24 485 2106</a></p>
+                        <!-- <p>(Position)</p> -->
+                    </div>
+                </div>
+                <div class="staff-card">
+                    <div class="image-container">
+                        <img loading="lazy" src="../resources/images/staff/Daniel Kwame Gyamfi.jpg"
+                            alt="Daniel Kwame Gyamfi">
+                    </div>
+                    <div class="label">
+                        <p>Daniel Kwame Gyamfi</p>
+                        <p><i class="fa-solid fa-phone"></i><a href="tel:+233547352288">+233 (0) 54 735 2288</a></p>
+                        <!-- <p>(Position)</p> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="map">
+            <div class="map-container">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=5.601802372120709, -0.2574533690057428&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                            href="https://gachanymph.com/">Gacha Nymph APK</a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            width: 100%;
+                            height: 400px;
+                        }
+
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            width: 100%;
+                            height: 400px;
+                        }
+
+                        .gmap_iframe {
+                            height: 400px !important;
+                        }
+                    </style>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="column">
+                <h2>Melinium Taekwondo & Karate Academy</h2>
+                <p>GA-464-6990</p>
+                <p>Sekyi Street </p>
+                <p>Nyamekye, Darkuman</p>
+                <p>Accra</p>
+                <ul class="socials">
+                    <li><a href="https://www.facebook.com/meliniumacademy" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://wa.me/+233530644335" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/meliniumacademy/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/meliniumacademy" target="_blank"><i
+                                class="fa-brands fa-x-twitter"></i></a></li>
+                </ul>
+            </div>
+        </footer>
     </main>
 
     <script src="../resources/js/menu.js"></script>
@@ -143,7 +350,10 @@
     <script src="https://kit.fontawesome.com/655ab35400.js" crossorigin="anonymous"></script>
 
     <!-- venobox -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.4/venobox.min.js" integrity="sha512-KX9LF4BMXOG6qr9aGjFIPK1xysZAHWXpuZW6gnRi6oM+41qa8x4zaLPkckNxz5veoSWzmV5HZqPMMtknU+431g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.0.4/venobox.min.js"
+        integrity="sha512-KX9LF4BMXOG6qr9aGjFIPK1xysZAHWXpuZW6gnRi6oM+41qa8x4zaLPkckNxz5veoSWzmV5HZqPMMtknU+431g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../resources/js/venobox.js"></script>
 </body>
 
 </html>
