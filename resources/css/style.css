@@ -501,7 +501,7 @@ section#classes .card .lm-button {
 
 /* about */
 section#about {
-  padding: 50px;
+  padding: 50px 10px;
   background: #d31d1d;
 }
 
